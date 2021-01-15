@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------------------- Lien CSS ------------------->
+    <link rel="stylesheet" href="./style.css" />
+    <!------------------- Lien Font Awesome ------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!------------------- Corps du site ------------------->
+    <!------------------- Header ------------------->
+    <header>
+      <div class="centre-header">
+        <!------------------- Partie gauche du header ------------------->
+        <div class="image-logo">
+          <a href="#!"><img src="./assets/logo.png" alt="logo" /></a>
+          <p>Lorem ipsum dolor <span>sit amet</span></p>
+        </div>
+        <!------------------- Partie droite du header ------------------->
+        <div class="header-droite">
+          <div class="user-panier">
+            <ul>
+              <li><i class="fas fa-user"></i> <a href="#!"> Mon Compte</a></li>
+              <li>
+                <i class="fas fa-shopping-cart"></i>
+                <a href="#!"> Votre Panier est Vide</a>
+              </li>
+            </ul>
+          </div>
+          <p>Bonjour Benjamin</p>
+          <!------------------- Liste choix en bas à droite du header ------------------->
+          <div class="liste-header-bas">
+            <ul>
+              <li><a href="#!">Contactez-Nous</a></li>
+              <li><a href="#!">Parrainage</a></li>
+              <li><a href="#!">Déconnexion</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!------------------- Mise en page centrée du site ------------------->
+      <section>
+        <!------------------- Image en haut de page ------------------->
+        <img
+          class="top-image"
+          src="./assets/header-page-catalogue.png"
+          alt="top-image"
+        />
+
+        <!------------------- Div comprenant les 4 articles ------------------->
+        <div class="articles">
+          <!------------------- Div comprenant les 2 articles supérieurs ------------------->
+          <div class="ligne-articles">
+            <!-- Article gauche -->
+            <article class="item">
+              <!-- Bulle en position absolue --->
+              <div class="rabais">
+                <p><span>-45%</span></p>
+              </div>
+              <!-- Fin de bulle en position absolue -->
+
+              <div class="photo-gant-texte">
+                <img src="./assets/gant-boxe-2.png" alt="gants2" />
+                <h3>Gants de Boxe Noirs V1</h3>
+              </div>
+
+              <!-- Bas de l'item avec bouton et prix -->
+              <div class="bas-item">
+                <button type="button">Voir le Produit</button>
+                <p>
+                  <strike><font size="4">120 €</font></strike>
+                  <span class="capital"><strong>65 €</strong></span>
+                </p>
+              </div>
+            </article>
+
+            <!-- Article droit -->
+            <article class="item">
+              <!-- Bulle en position absolue -->
+              <div class="rabais">
+                <p><span>-51%</span></p>
+              </div>
+              <!-- Fin de bulle en position absolue -->
+
+              <div class="photo-gant-texte">
+                <img src="./assets/gant-boxe-1.png" alt="gants1" />
+                <h3>Gants de Boxe Rouges V2</h3>
+              </div>
+              <!-- Bas de l'item avec bouton et prix -->
+              <div class="bas-item">
+                <button type="button">Voir le Produit</button>
+                <p>
+                  <strike><font size="4">140 €</font></strike>
+                  <span class="capital"><strong>69 €</strong></span>
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!------------------- Div comprenant les 2 articles inférieurs ------------------->
+          <div class="ligne-articles">
+            <!-- Article gauche -->
+            <article class="item">
+              <!-- Bulle en position absolue --->
+              <div class="rabais">
+                <p><span>-45%</span></p>
+              </div>
+              <!-- Fin de bulle en position absolue -->
+              <div class="photo-gant-texte">
+                <img src="./assets/gant-boxe-2.png" alt="gants2" />
+                <h3>Gants de Boxe Noirs V1</h3>
+              </div>
+              <!-- Bas de l'item avec bouton et prix -->
+              <div class="bas-item">
+                <button type="button">Voir le Produit</button>
+                <p>
+                  <strike><font size="4">120 €</font></strike>
+                  <span class="capital"><strong>65 €</strong></span>
+                </p>
+              </div>
+            </article>
+
+            <!-- Article droit -->
+            <article class="item">
+              <!-- Bulle en position absolue -->
+              <div class="rabais">
+                <p><span>-51%</span></p>
+              </div>
+              <!-- Fin de bulle en position absolue -->
+              <div class="photo-gant-texte">
+                <img src="./assets/gant-boxe-1.png" alt="gants1" />
+                <h3>Gants de Boxe Rouges V2</h3>
+              </div>
+              <!-- Bas de l'item avec bouton et prix -->
+              <div class="bas-item">
+                <button type="button">Voir le Produit</button>
+                <p>
+                  <strike><font size="4">140 €</font></strike>
+                  <span class="capital"><strong>69 €</strong></span>
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!------------------- Footer ------------------->
+    <footer>
+      <!-- Nav en position absolue sur footer -->
+      <nav class="nav-bas-de-page">
+        <ul>
+          <li><a href="#!">Qui Sommes-Nous ?</a> -</li>
+          <li><a href="#!">Contact</a> -</li>
+          <li><a href="#!">Assistance</a> -</li>
+          <li><a href="#!">CGV</a></li>
+        </ul>
+      </nav>
+
+      <!-- Section qui englobe les 4 articles du footer -->
+      <section class="container01">
+        <!-- Article 1 du footer -->
+        <div class="item-bas">
+          <img src="./assets/icon-livre.png" alt="livre" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+            necessitatibus explicabo sed animi dolore?
+          </p>
+        </div>
+        <!-- Article 2 du footer -->
+        <div class="item-bas">
+          <img src="./assets/icon-camion.png" alt="camion" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+            necessitatibus explicabo sed animi dolore?
+          </p>
+        </div>
+        <!-- Article 3 du footer -->
+        <div class="item-bas">
+          <img src="./assets/icon-cadenat.png" alt="cadenas" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+            necessitatibus explicabo sed animi dolore?
+          </p>
+        </div>
+        <!-- Article 4 du footer -->
+        <div class="item-bas">
+          <img src="./assets/icon-pouce.png" alt="pouce" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+            necessitatibus explicabo sed animi dolore?
+          </p>
+        </div>
+      </section>
+
+      <!------------------- Liens réseaux sociaux ------------------->
+      <div class="reseaux-sociaux">
+        <a href="#!"><img src="./assets/icon-facebook.png" alt="fb" /></a>
+        <a href="#!"><img src="./assets/icon-twitter.png" alt="twitter" /></a>
+        <a href="#!"><img src="./assets/icon-linkedin.png" alt="linkedin" /></a>
+      </div>
+
+      <!------------------- Mentions légales ------------------->
+      <p>&copy 2021 - LACOUR Benjamin - Tous Droits Réservés</p>
+    </footer>
+  </body>
+</html>
